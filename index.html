@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Percentage Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1> Ruwayne Percentage Calculator</h1>
+    <form class="form" id="f1">
+        <fieldset class="values">
+          What is <input type='text' size='3' autofocus='autofocus'> %
+          <nobr>of <input type='text' size='7'>?</nobr>
+        </fieldset>
+        <fieldset class="results">
+          <input type="submit" value="Calculate">
+          <input type="text" size="6" readonly="readonly"><span class="hide">&nbsp;%</span>
+        </fieldset>
+      </form>
+      <form class="form" id="f2">
+        <fieldset class="values">
+          <input type='text' size='5'> is what percent
+          <nobr>of <input type='text' size='5'>?</nobr>
+        </fieldset>
+        <fieldset class="results">
+          <input type="submit" value="Calculate">
+          <input type="text" size="6" readonly="readonly"><span>&nbsp;%</span>
+        </fieldset>
+      </form>
+      <form class="form" id="f3">
+        <fieldset class="values">
+          What is the percentage increase/decrease<br>
+          <nobr>from <input type='text' size='5'></nobr>
+          <nobr>to <input type='text' size='5'>?</nobr>
+        </fieldset>
+        <fieldset class="results"><br class="remove">
+          <input type="submit" value="Calculate">
+          <input type="text" size="6" readonly="readonly"><span>&nbsp;%</span>
+        </fieldset>
+      </form>
+      <script src="index.js"></script>
+</body>
+</html>
